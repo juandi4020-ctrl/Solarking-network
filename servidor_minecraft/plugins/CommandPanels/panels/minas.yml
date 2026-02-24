@@ -1,0 +1,296 @@
+panels:
+  minas:
+    perm: default
+    rows: 5
+    commands open: minas
+    title: '&8 ⌜ᴍɪɴᴀѕ ᴅᴇʟ ѕᴇʀᴠɪᴅᴏʀ⌟'
+    commands:
+    - 'minas'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '0':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '1':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '2':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '3':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '4':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '5':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '6':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '7':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '8':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '9':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '10':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '11':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTRmNWI5ZGJiYjdjZThmYWE3NDdkNzFhYTcxZTY2YTg1NDNmZmE0MDI5ZjE4YTE5MGQ0ZDM5MDcwZWE5MGIxMSJ9fX0=
+        stack: 1
+        name: §8ᴍɪɴᴀ ᴀᴘᴘʀᴇɴᴛɪᴄᴇ
+        lore:
+          - '§7| &fᴜɴᴀ ᴍɪɴᴀ ʙásɪᴄᴀ ᴘᴀʀᴀ ᴄᴏᴍᴇɴᴢᴀʀ'
+          - '§7| &fᴀᴘʀᴇɴᴅᴇ ᴀ ᴄᴏɴꜱɪɢᴜɪʀ ʀᴇᴄᴜʀsᴏs.'
+          - ' '
+          - '§8✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴᴋᴜᴘ ʀᴇǫᴜᴇʀɪᴅᴏ : §8ᴀᴘᴘʀᴇɴᴛɪᴄᴇ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+      '12':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmVlYjYzNDQwOGVmMjVmNWM2NDBmMzdmNDAwNjdiNTg3MDUyNmRkNmMwMTY3ZDQzZWE5MzhlMzUwZTgxMzM0MCJ9fX0=
+        stack: 1
+        name: §aᴍɪɴᴀ ɴᴏʙʟᴇ
+        lore:
+          - '§7| &fᴜɴᴀ ᴍɪɴᴀ ᴅᴇ ɴɪᴠᴇʟ ɪɴᴛᴇʀᴍᴇᴅɪᴏ'
+          - '§7| &fᴀᴘʀᴏᴠᴇᴄʜᴀ ʏ ᴄᴏɴѕɪɢᴜɪʀ ʀᴇᴄᴜʀsᴏs.'
+          - ' '
+          - '§a✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴᴋυρ ʀᴇǫυιʀιɗο: §aɴoвʟe'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNiODk4MTQ5YTA2NTdjODg0NWI2MzA1ZjNmNDNkMWFlYzYzNzAwMGIwMDRhYzExYTI1NDBjYjFiYWY3NGMyMCJ9fX0=
+        stack: 1
+        name: §5ᴍɪɴᴀ ᴇxᴘᴇʀᴛ
+        lore:
+          - '§7| &fᴜɴᴀ ᴍɪɴᴀ ᴅᴇ ɴɪᴠᴇʟ ᴇxᴘᴇʀᴛᴏ'
+          - '§7| &fᴀᴘʀᴏᴠᴇᴄʜᴀ ʏ ᴄᴏɴѕɪɢᴜɪʀ ʀᴇᴄᴜʀsᴏs.'
+          - ' '
+          - '§5✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴᴋυρ ʀᴇǫυιʀιɗο: §5ᴇxᴘᴇʀᴛ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+        
+      '14':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAyNmIwNjU0ZWM4NTg1NGE1Mjk4ZTdiMTgyZjFjZTAzOTQyNzE2NDJkNDc0ZDMzMTBjZjkyODY4Yjg5NjlhMCJ9fX0=
+        stack: 1
+        name: §9ᴍɪɴᴀ ᴍʏᴛʜɪᴄ
+        lore:
+          - '§7| &fᴜɴᴀ ᴍɪɴᴀ ᴅᴇ ɴɪᴠᴇʟ ᴍʏᴛʜɪᴄᴏ'
+          - '§7| &fᴀᴘʀᴏᴠᴇᴄʜᴀ ʏ ᴄᴏɴѕɪɢᴜɪʀ ʀᴇᴄᴜʀsᴏs.'
+          - ' '
+          - '§9✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴᴋυρ ʀᴇǫυιʀιɗο: §9ᴍʏᴛʜɪᴄ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+          
+      '15':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBiYWI1MDA5YTFiMGNmNmEyMzk4NTlkZmI0MTNiZWRjMmNiNmQ4MDI2ZDRhOWYxZmYxZDFhMTc4MzcwYzI5NCJ9fX0
+        stack: 1
+        name: §cᴍɪɴᴀ ᴘɪxᴇʟᴀᴛᴇᴅ
+        lore:
+          - '§7| &fᴜɴᴀ ᴍɪɴᴀ ᴅᴇ ɴɪᴠᴇʟ ᴘɪxᴇʟᴀᴛᴇᴅ'
+          - '§7| &fᴀᴘʀᴏᴠᴇᴄʜᴀ ʏ ᴄᴏɴѕɪɢᴜɪʀ ʀᴇᴄᴜʀsᴏs.'
+          - ' '
+          - '§c✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴᴋυρ ʀᴇǫυιʀιɗο: §cᴘɪxᴇʟᴀᴛᴇᴅ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+         
+      '16':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '17':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '18':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '19':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '20':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '21':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '22':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '23':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '24':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '25':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '26':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '27':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '28':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRlZWQzMGM4OWZhODA2YmM2MjRiYmU1NjY1YzIxMzBiZDkyZWYxODJjOTRiMjIzMDE0MDhiZjk3NGVkZmE0ZiJ9fX0=
+        stack: 1
+        name: §aᴍɪɴᴀ ɴᴏ ᴘᴠᴘ
+        lore:
+          - '§7| &fᴀᴘʀᴏᴠᴇᴄʜᴀ ʏ ᴄᴏɴѕɪɢᴜᴇ ʀᴇᴄᴜʀѕᴏѕ'
+          - '§7| &fѕɪɴ ᴘʀᴇᴏᴄᴜᴘᴀʀᴛᴇ ᴘᴏʀ ᴏᴛʀᴏѕ ᴊᴜɢᴀᴅᴏʀᴇѕ.'
+          - ' '
+          - '§a✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴᴋᴜᴘ ʀᴇǫᴜɪʀɪᴅᴏ: §aɴɪɴɢúɴᴏ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+      '29':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '30':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '31':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '32':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '33':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '34':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E0ZjFmMTIyZDQ4OGFhYjA4MGQzNDkyODM4NmQ3ZjI5MDI4NzM2Mjc0N2VjZmQ1MTI4NmMzNDk5NzNlYTUyYyJ9fX0=
+        stack: 1
+        name: §cᴍɪɴᴀ ᴘᴠᴘ
+        lore:
+          - '§7| &fᴇɴғʀᴇɴᴛᴀᴛᴇ ᴀ ᴏᴛʀᴏs ᴊᴜɢᴀᴅᴏʀᴇs'
+          - '§7| &fᴍɪᴇɴᴛʀᴀs ǫᴜᴇ ᴄᴏɴsɪɢᴜᴇ ʀᴇᴄᴜʀsᴏs.'
+          - ' '
+          - '§c✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §cᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴᴋᴜᴘ ʀᴇǫᴜɪʀɪᴅᴏ: §aᴜɴɪᴠᴇʀsᴀʟ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+      '35':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '36':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '37':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '38':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '39':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTIyYjExMDdkYWI1MjgwYzQ2M2JmOGNkODFkYzdiNGU1M2E3YTYwYzQ5OGUyNmQyMTcyODI4MmM2NDVkMTc4YiJ9fX0=
+        stack: 1
+        name: §7ᴍɪɴᴀ ᴠɪᴘ 1
+        lore:
+          - '§7| &fᴀᴘʀᴏᴠᴇᴄʜᴀ ʏ ᴄᴏɴѕɪɢᴜᴇ ʀᴇᴄᴜʀѕᴏѕ'
+          - '§7| &fᴄᴏɴ ᴀʟɢᴜɴᴀs ᴠᴇɴᴛᴀᴊᴀs ᴘᴀʀᴀ ᴛɪ.'
+          - ' '
+          - '§e✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴɢo ʀᴇǫᴜɪʀɪᴅᴏ: §7ʙᴏᴅʜɪ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+       
+      '40':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM2NWYzNzBhMTJkMDU4YzFmZmJlZTkwMmNlNjQwMTRhMmI4NThlNDA0ZmYzMDJlNjJmYjNkYmFmZWYzMjAwNCJ9fX0=
+        stack: 1
+        name: §5ᴍɪɴᴀ ᴠɪᴘ 2
+        lore:
+          - '§7| &fᴜɴᴀ ᴍɪɴᴀ ᴇxᴄʟᴜѕɪᴠᴀ ᴅᴏɴᴅᴇ ᴘᴏᴅʀᴀs'
+          - '§7| &fᴄᴏɴѕᴇɢᴜɪʀ ʀᴇᴄᴜʀѕᴏs ᴅᴇ ᴀʟᴛᴀ ᴄᴀʟɪᴅᴀᴅ.'
+          - ' '
+          - '§5✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴɢo ʀᴇǫᴜɪʀɪᴅᴏ: §5ᴋᴀʀᴍᴀ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+       
+      '41':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUwOWMyMzZjZjg5OGZlNjJjN2I1NDQ2ODE4MzM4MTYwY2I5NTU2MzQ4NmQzZTI5YWZmZmRmODg3N2MwOGJmNCJ9fX0=
+        stack: 1
+        name: §6ᴍɪɴᴀ ᴠɪᴘ 3
+        lore:
+          - '§7| &fʟᴀ ᴍɪɴᴀ ᴍᴀѕ ᴇxʟᴜѕɪᴠᴀ ᴄᴏɴ ᴍᴀʏᴏʀᴇs'
+          - '§7| &fʀᴇᴄᴜʀsᴏs ʏ ʀᴇᴄᴏᴍᴘᴇѕᴀѕ ᴍᴀxɪᴍᴀѕ.'
+          - ' '
+          - '§6✉ ɪɴꜰᴏʀᴍᴀᴄɪóɴ:'
+          - '§7» &fᴘᴠᴘ:: §aᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ'
+          - '§7» &fᴇѕᴛᴀᴅᴏ: §aᴀʙɪᴇʀᴛᴀ'
+          - '§7» &fʀᴀɴɢo ʀᴇǫᴜɪʀɪᴅᴏ: §6ᴍᴏᴋѕʜᴀ'
+          - ' '
+          - '§e❐ ᴄʟɪᴄ ᴀǫᴜí ᴘᴀʀᴀ ɪʀ'
+      
+      '42':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '43':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '44':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '

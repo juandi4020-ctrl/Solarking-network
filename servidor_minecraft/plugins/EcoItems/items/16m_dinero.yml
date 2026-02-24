@@ -1,0 +1,64 @@
+ # The ID of the item is the name of the .yml file,
+ # for example hardened_netherite_sword.yml has the ID of hardened_netherite_sword
+ # You can place items anywhere in this folder,
+ # including in subfolders if you want to organize your item configs
+ # _example.yml is not loaded.
+
+item:
+  item: honeycomb # The item in-game: https://plugins.auxilor.io/all-plugins/the-item-lookup-system
+  display-name: "&2&ka&r&a1.600.000$&2&ka" # The display name of the item
+  lore: # The item lore
+    - "&8ɪᴛᴇᴍ ᴇѕᴘᴇᴄɪᴀʟ"
+    - "&2| &aᴀʟ ʜᴀᴄᴇʀ ᴄʟɪᴄᴋ ᴅᴇʀᴇᴄʜᴏ"
+    - "&2| &aᴛᴇ ᴏᴛᴏʀɢᴀ 1.600.000$"
+  craftable: false # If the item can be crafted
+
+# The slot the item has to be in to activate its effects.
+# The options for slot are mainhand, offhand, hands, helmet, chestplate,
+# leggings, boots, armor, any, a number from 0-40 (to specify an exact slot),
+# or a list of slots like "9, 10, 11, mainhand"
+# Use to choose weather this is a weapon, tool, armor piece, charm, etc.
+# If you don't specify this, it will default to mainhand.
+slot: mainhand
+
+base-damage: 1 # (Optional) The item base damage
+base-attack-speed: 1.5 # (Optional) The item base attack speed
+
+# (Optional) The rarity of the item
+rarity: rare
+
+# The effects of the item (i.e. the functionality)
+# See here: https://plugins.auxilor.io/effects/configuring-an-effect
+effects:
+  - id: give_money
+    args:
+      amount: 1600000
+      cooldown: 0
+    triggers:
+      - alt_click
+  - id: consume_held_item
+    args:
+      amount: 1
+    triggers:
+      - alt_click
+  - id: run_player_command
+    args:
+      command: "tellraw %player% {\"text\":\"Has recibido 1.600.000$\",\"color\":\"green\"}"
+      as_op: true
+    triggers:
+      - alt_click
+  
+
+
+# The conditions required for the effects to activate
+conditions:
+  - id: has_permission
+    args:
+      permission: ecoitems.use.16m_dinero
+  - id: has_ecoitem
+    args:
+      item: 16m_dinero
+
+
+  
+

@@ -1,0 +1,40 @@
+item:
+  item: yellow_candle hide_attributes # The item in-game: https://plugins.auxilor.io/all-plugins/the-item-lookup-system
+  display-name: "&7ᴀᴍᴜʟᴇᴛᴏ ▸ &eʀᴇꜱɪsᴛᴇɴᴄɪᴀ" # The display name of the item
+  lore: # The item lore
+    - "&e| &fᴇꜰᴇᴄᴛᴏ:"
+    - "&e▸ ʀᴇꜱɪsᴛᴇɴᴄɪᴀ ɪɪɪ: &8[30 segundos]"
+    - ""
+    - "&e| &fᴄᴏᴏʟᴅᴏᴡɴ: &a3 ᴍɪɴᴜᴛᴏѕ ⌚"
+  craftable: false # If the item can be crafted
+ 
+
+
+slot: mainhand
+
+base-damage: 1 # (Optional) The item base damage
+base-attack-speed: 1.5 # (Optional) The item base attack speed
+
+rarity: rare
+
+effects:
+  - id: potion_effect
+    args:
+      effect: resistance
+      level: 3
+      duration: 600
+      apply_to_player: true
+      cooldown: 180
+    triggers:
+      - alt_click
+  
+
+
+conditions:
+  - id: has_permission
+    args:
+      permission: ecoitems.use.amuleto_resistencia
+  - id: has_ecoitem
+    args:
+      item: amuleto_resistencia
+

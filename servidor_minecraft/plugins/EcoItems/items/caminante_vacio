@@ -1,0 +1,32 @@
+caminante_vacio:
+  display-name: "<gradient:#4b0082:#000000>casco ᴄᴀᴍɪɴᴀɴᴛᴇ ᴅᴇʟ ᴠᴀᴄɪᴏ</gradient>"
+  item: netherite_helmet
+  lore:
+    - ""
+    - "&8&lʙᴏɴᴏ ᴅᴇ ᴄᴏɴᴊᴜɴᴛᴏ: ᴘᴀꜱᴏ ᴅᴇʟ ᴀʙɪꜱᴍᴏ"
+    - ""
+    - "&7ꜰᴏʀᴊᴀᴅᴀ ᴄᴏɴ ʟᴀ ᴇꜱᴇɴᴄɪᴀ ᴅᴇʟ ꜰɪɴ ʏ ᴇʟ ᴇᴛᴇʀ."
+    - "&7ᴘᴇʀᴍɪᴛᴇ ᴘᴇɴᴇᴛʀᴀʀ ᴇʟ ᴛᴇᴊɪᴅᴏ ᴅᴇ ʟᴀ ʀᴇᴀʟɪᴅᴀᴅ."
+    - ""
+    - "&f▸ &dꜱʜɪꜰᴛ x2: &7ᴛᴇʟᴇᴛʀᴀɴꜱᴘᴏʀᴛᴀᴄɪᴏɴ ɪɴꜱᴛᴀɴᴛᴀɴᴇᴀ."
+    - "&8ɴᴏ ᴘᴜᴇᴅᴇꜱ ᴄᴀᴢᴀʀ ʟᴏ Qᴜᴇ ɴᴏ ᴘᴇʀᴛᴇɴᴇᴄᴇ ᴀ Qᴜɪ."
+  bonuses:
+    - id: blink_step
+      trigger: crouch
+      conditions:
+        - id: cooldown
+          args:
+            seconds: 60
+      effects:
+        - id: teleport
+          args:
+            distance: 8
+        - id: play_sound
+          args:
+            sound: entity.enderman.teleport
+            volume: 1
+            pitch: 1
+        - id: spawn_particle
+          args:
+            particle: portal
+            count: 20

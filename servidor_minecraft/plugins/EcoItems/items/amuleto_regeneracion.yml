@@ -1,0 +1,40 @@
+item:
+  item: magenta_candle hide_attributes # The item in-game: https://plugins.auxilor.io/all-plugins/the-item-lookup-system
+  display-name: "&7ᴀᴍᴜʟᴇᴛᴏ ▸ &dʀᴇɢᴇɴᴇʀᴀᴄɪᴏɴ" # The display name of the item
+  lore: # The item lore
+    - "&d| &fᴇꜰᴇᴄᴛᴏ:"
+    - "&d▸ ʀᴇɢᴇɴᴇʀᴀᴄɪᴏɴ ɪɪɪ: &8[30 segundos]"
+    - ""
+    - "&d| &fᴄᴏᴏʟᴅᴏᴡɴ: &a5 ᴍɪɴᴜᴛᴏѕ ⌚"
+  craftable: false # If the item can be crafted
+ 
+
+
+slot: mainhand
+
+base-damage: 1 # (Optional) The item base damage
+base-attack-speed: 1.5 # (Optional) The item base attack speed
+
+rarity: rare
+
+effects:
+  - id: potion_effect
+    args:
+      effect: regeneration
+      level: 3
+      duration: 600
+      apply_to_player: true
+      cooldown: 300
+    triggers:
+      - alt_click
+  
+
+
+conditions:
+  - id: has_permission
+    args:
+      permission: ecoitems.use.amuleto_regeneracion
+  - id: has_ecoitem
+    args:
+      item: amuleto_regeneracion
+

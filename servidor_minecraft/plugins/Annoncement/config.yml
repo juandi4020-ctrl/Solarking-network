@@ -1,0 +1,6 @@
+Annonce:
+  AnnonceOn: '&6&l[ANNONCEMENT OF &e&l%player&4&l] &6%message'
+  AnnonceOff: '&4&l[ANNONCEMENT] &6%message'
+AnnonceReload: '&9&lThe plugin was reload ! Enjoy ;)'
+NoEnoughArgs: '&c&lNot enough arguments ?'
+NoPerm: '&c&lYou don''t have the permission !'

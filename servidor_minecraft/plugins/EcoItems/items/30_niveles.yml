@@ -1,0 +1,28 @@
+item:
+  item: experience_bottle
+  display-name: "&a30 Niveles"
+  lore:
+    - "&7Usa para recibir 30 niveles de experiencia"
+    - "&7Se consume al usar"
+  craftable: false
+
+effects:
+  - id: run_player_command
+    args:
+      command: "xp give %player% 1400"
+      as_op: true
+    cooldown: 60
+    triggers:
+      - alt_click
+  - id: consume_held_item
+    args:
+      amount: 1
+    triggers:
+      - alt_click
+conditions:
+  - id: has_permission
+    args:
+      permission: ecoitems.use.30_niveles
+  - id: has_ecoitem
+    args:
+      item: 30_niveles

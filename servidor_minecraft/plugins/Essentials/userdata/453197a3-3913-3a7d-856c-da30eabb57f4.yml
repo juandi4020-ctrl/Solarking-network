@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: true
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.194.77
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1769827133040
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1769827172030
+  login: 1769826542088
+money: '1000.0'
+last-account-name: 03thiaguittoo
+lastlocation:
+  world: ac3cdb48-0fe6-4f2d-9c6b-5644b368f855
+  world-name: minas1
+  x: 365.1823543883903
+  y: 97.9091260860965
+  z: -716.9704854398175
+  yaw: 54.749332427978516
+  pitch: 3.9000465869903564
+logoutlocation:
+  world: ac3cdb48-0fe6-4f2d-9c6b-5644b368f855
+  world-name: minas1
+  x: 0.5489921526471885
+  y: 64.0
+  z: -0.08119991751409358
+  yaw: 27.300029754638672
+  pitch: 31.800018310546875

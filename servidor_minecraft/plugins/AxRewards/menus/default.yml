@@ -1,0 +1,368 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axrewards.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+# ----- SETTINGS -----
+
+title: "&#17FF3E&lʀᴇᴄᴏᴍᴘᴇɴsᴀs"
+    # a gui can only have 1-6 rows
+rows: 3
+    # valid values: CHEST, WORKBENCH, HOPPER, DISPENSER, BREWING
+type: CHEST
+# this probably won't update when the plugin is reloaded, so try restarting the server
+# you can try to update it manually with '/axrewards reload commands' but it can be unstable
+open-commands:
+  - "rewards"
+  - "reward"
+  - "recompensas"
+
+# ----- ITEMS -----
+
+close:
+  slot: 26
+  material: "BARRIER"
+  name: "&#FFEE00ᴄᴇʀʀᴀʀ"
+  lore:
+    - "&#DDDDDD» &#FFEEAAᴄᴇʀʀᴀʀ ᴍᴇɴᴜ"
+
+ʀᴇᴄᴏᴍᴘᴇɴsᴀ ᴅɪᴀʀɪᴀ:
+  slot: 21
+  # in seconds
+  # you can set it to -1 for it to never automatically refresh
+  cooldown: 86400
+  # you can create as many item/command rewards as you would like!
+  # these will be run/given when a player claims this reward
+  claim-commands:
+    - "crates key give %player% vote 3"
+    - "eco give %player% 30000"
+    - "crates key give %player% rust 2"
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#2DE245&l✵ ʀᴇᴄᴏᴍᴘᴇɴsᴀ ᴅɪᴀʀɪᴀ ✵"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄʟɪᴄᴋ &#DDDDDD» &#FFEEAAᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ"
+  unclaimable:
+    material: "MINECART"
+    name: "&#2DE245&l✵ ʀᴇᴄᴏᴍᴘᴇɴsᴀ ᴅɪᴀʀɪᴀ ✵"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄᴏᴏʟᴅᴏᴡɴ &#DDDDDD» &#FFEEAA%time%"
+
+recompensa bodhi:
+  slot: 2
+  cooldown: 86400
+  # you can set the permission to any value, it does not have to start with axrewards
+  permission: "axrewards.permissionreward"
+  claim-commands:
+    - "xp give %player% 1000"
+    - "eco give %player% 25000"
+    - "crates key give %player% zenith 1"
+    - "crates key give %player% vote 3"
+    - "crates key give %player% rust 1"
+    - "ae givercbook SIMPLE %player% 1"
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#00FF87🔥 &#00FF87&lʀ&#06FE8F&lᴇ&#0CFD96&lᴄ&#12FC9E&lᴏ&#18FBA5&lᴍ&#1EFAAD&lᴘ&#24F9B4&lᴇ&#2AF8BC&lɴ&#30F7C3&lѕ&#36F6CB&lᴀ&#3CF5D2&lѕ &#48F3E1&lʙ&#4EF2E9&lᴏ&#54F1F0&lᴅ&#5AF0F8&lʜ&#60EFFF&lɪ&r &#60EFFF🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄʟɪᴄᴋ &#DDDDDD» &#FFEEAAᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ"
+  unclaimable:
+    material: "MINECART"
+    name: "&#00FF87🔥 &#00FF87&lʀ&#06FE8F&lᴇ&#0CFD96&lᴄ&#12FC9E&lᴏ&#18FBA5&lᴍ&#1EFAAD&lᴘ&#24F9B4&lᴇ&#2AF8BC&lɴ&#30F7C3&lѕ&#36F6CB&lᴀ&#3CF5D2&l𝕤 &#48F3E1&lʙ&#4EF2E9&lᴏ&#54F1F0&lᴅ&#5AF0F8&lʜ&#60EFFF&lɪ&r &#60EFFF🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄᴏᴏʟᴅᴏᴡɴ &#DDDDDD» &#FFEEAA%time%"
+  no-permission:
+    material: "BARRIER"
+    name: "&#00FF87🔥 &#00FF87&lʀ&#06FE8F&lᴇ&#0CFD96&lᴄ&#12FC9E&lᴏ&#18FBA5&lᴍ&#1EFAAD&lᴘ&#24F9B4&lᴇ&#2AF8BC&lɴ&#30F7C3&lѕ&#36F6CB&lᴀ&#3CF5D2&l𝕤 &#48F3E1&lʙ&#4EF2E9&lᴏ&#54F1F0&lᴅ&#5AF0F8&lʜ&#60EFFF&lɪ&r &#60EFFF🔥"
+    lore:
+      - " "
+      - "&#FFEE00ɴᴇᴄᴇѕɪᴛᴀѕ ᴇʟ ʀᴀɴɢᴏ &#DDDDDD» &#48F3E1&lʙ&#4EF2E9&lᴏ&#54F1F0&lᴅ&#5AF0F8&lʜ&#60EFFF&lɪ"
+
+ʀᴇᴄᴏᴍᴘᴇɴsᴀ sᴇᴍᴀɴᴀʟ:
+  slot: 22
+  # in seconds
+  # you can set it to -1 for it to never automatically refresh
+  cooldown: 604800
+  # you can create as many item/command rewards as you would like!
+  # these will be run/given when a player claims this reward
+  claim-commands:
+    - "%player% ʜᴀs ʀᴇᴄʟᴀᴍᴀᴅᴏ ᴛᴜ ʀᴇᴄᴏᴍᴘᴇɴsᴀ sᴇᴍᴀɴᴀʟ"
+    - "crates key give %player% vote 5"
+    - "eco give %player% 60000"
+    - "crates key give %player% onyx 1"
+    - "crates key give %player% rust 3"
+    - "crates key give %player% zenith 2"
+    - "crates key give %player% d 1"
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#009213&l☘ ʀᴇᴄᴏᴍᴘᴇɴsᴀ sᴇᴍᴀɴᴀʟ ☘"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄʟɪᴄᴋ &#DDDDDD» &#FFEEAAᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ"
+  unclaimable:
+    material: "MINECART"
+    name: "&#009213&l☘ ʀᴇᴄᴏᴍᴘᴇɴsᴀ sᴇᴍᴀɴᴀʟ ☘"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄᴏᴏʟᴅᴏᴡɴ &#DDDDDD» &#FFEEAA%time%"
+ʀᴇᴄᴏᴍᴘᴇɴsᴀ ᴍᴇɴsᴜᴀʟ:
+  slot: 23
+  # in seconds
+  # you can set it to -1 for it to never automatically refresh
+  cooldown: 2592000
+  # you can create as many item/command rewards as you would like!
+  # these will be run/given when a player claims this reward
+  claim-commands:
+    - "%player% ʜᴀs ʀᴇᴄʟᴀᴍᴀᴅᴏ ᴛᴜ ʀᴇᴄᴏᴍᴘᴇɴsᴀ ᴍᴇɴsᴜᴀʟ"
+    - "crates key give %player% vote 10"
+    - "eco give %player% 100000"
+    - "crates key give %player% onyx 3"
+    - "crates key give %player% rust 4"
+    - "crates key give %player% zenith 3"
+    - "crates key give %player% sa 2"
+    - "crates key give %player% d 2"
+    - "crates key give %player% kpth 2"
+    - "crates key give %player% solar 1"
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#195901&l♛ ʀᴇᴄᴏᴍᴘᴇɴsᴀ ᴍᴇɴsᴜᴀʟ ♛"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄʟɪᴄᴋ &#DDDDDD» &#FFEEAAᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ"
+  unclaimable:
+    material: "MINECART"
+    name: "&#195901&l♛ ʀᴇᴄᴏᴍᴘᴇɴsᴀ ᴍᴇɴsᴜᴀʟ ♛"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄᴏᴏʟᴅᴏᴡɴ &#DDDDDD» &#FFEEAA%time%"
+
+recompensa vimana:
+  slot: 3
+  cooldown: 86400
+  # you can set the permission to any value, it does not have to start with axrewards
+  permission: "axrewards.permissionvimana"
+  claim-commands:
+    - "xp give %player% 2000"
+    - "eco give %player% 50000"
+    - "crates key give %player% onyx 1"
+    - "crates key give %player% zenith 1"
+    - "crates key give %player% d 1"
+    - "crates key give %player% rust 1"
+    - "ae givercbook SIMPLE %player% 1"
+    - "ae givercbook UNIQUE %player% 1"
+    - "crates key give %player% vote 4" 
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#833AB4🔥 &#833AB4&lʀ&#8A38AB&lᴇ&#9137A2&lᴄ&#993599&lᴏ&#A03390&lᴍ&#A73188&lᴘ&#AE307F&lᴇ&#B52E76&lɴ&#BC2C6D&lѕ&#C42B64&lᴀ&#CB295B&lѕ &#D92649&lᴠ&#E02441&lɪ&#E72238&lᴍ&#EF202F&lᴀ&#F61F26&lɴ&#FD1D1D&lᴀ&r &#FD1D1D🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄʟɪᴄᴋ &#DDDDDD» &#FFEEAAᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ"
+  unclaimable:
+    material: "MINECART"
+    name: "&#833AB4🔥 &#833AB4&lʀ&#8A38AB&lᴇ&#9137A2&lᴄ&#993599&lᴏ&#A03390&lᴍ&#A73188&lᴘ&#AE307F&lᴇ&#B52E76&lɴ&#BC2C6D&lѕ&#C42B64&lᴀ&#CB295B&lѕ &#D92649&lᴠ&#E02441&lɪ&#E72238&lᴍ&#EF202F&lᴀ&#F61F26&lɴ&#FD1D1D&lᴀ&r &#FD1D1D🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄᴏᴏʟᴅᴏᴡɴ &#DDDDDD» &#FFEEAA%time%"
+  no-permission:
+    material: "BARRIER"
+    name: "&#833AB4🔥 &#833AB4&lʀ&#8A38AB&lᴇ&#9137A2&lᴄ&#993599&lᴏ&#A03390&lᴍ&#A73188&lᴘ&#AE307F&lᴇ&#B52E76&lɴ&#BC2C6D&lѕ&#C42B64&lᴀ&#CB295B&lѕ &#D92649&lᴠ&#E02441&lɪ&#E72238&lᴍ&#EF202F&lᴀ&#F61F26&lɴ&#FD1D1D&lᴀ&r &#FD1D1D🔥"
+    lore:
+      - " "
+      - "&#FFEE00ɴᴇᴄᴇѕɪᴛᴀѕ ᴇʟ ʀᴀɴɢᴏ &#DDDDDD» &#D92649&lᴠ&#E02441&lɪ&#E72238&lᴍ&#EF202F&lᴀ&#F61F26&lɴ&#FD1D1D&lᴀ"
+
+recompensa karma:
+  slot: 4
+  cooldown: 86400
+  # you can set the permission to any value, it does not have to start with axrewards
+  permission: "axrewards.permissionkarma"
+  claim-commands:
+    - "xp give %player% 3000"
+    - "eco give %player% 100000"
+    - "crates key give %player% onyx 2"
+    - "crates key give %player% zenith 2"
+    - "crates key give %player% vote 5"
+    - "crates key give %player% d 1"
+    - "crates key give %player% rust 2"
+    - "ae givercbook SIMPLE %player% 2"
+    - "ae givercbook UNIQUE %player% 1"
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#8E2DE2🔥 &#8E2DE2&lʀ&#8A2AE2&lᴇ&#8627E2&lᴄ&#8125E2&lᴏ&#7D22E2&lᴍ&#791FE1&lᴘ&#751CE1&lᴇ&#7019E1&lɴ&#6C17E1&lѕ&#6814E1&lᴀ&#6411E1&lѕ &#5B0BE1&lᴋ&#5708E0&lᴀ&#5306E0&lʀ&#4E03E0&lᴍ&#4A00E0&lᴀ&r &#4A00E0🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄʟɪᴄᴋ &#DDDDDD» &#FFEEAAᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ"
+  unclaimable:
+    material: "MINECART"
+    name: "&#8E2DE2🔥 &#8E2DE2&lʀ&#8A2AE2&lᴇ&#8627E2&lᴄ&#8125E2&lᴏ&#7D22E2&lᴍ&#791FE1&lᴘ&#751CE1&lᴇ&#7019E1&lɴ&#6C17E1&lѕ&#6814E1&lᴀ&#6411E1&lѕ &#5B0BE1&lᴋ&#5708E0&lᴀ&#5306E0&lʀ&#4E03E0&lᴍ&#4A00E0&lᴀ&r &#4A00E0🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄᴏᴏʟᴅᴏᴡɴ &#DDDDDD» &#FFEEAA%time%"
+  no-permission:
+    material: "BARRIER"
+    name: "&#8E2DE2🔥 &#8E2DE2&lʀ&#8A2AE2&lᴇ&#8627E2&lᴄ&#8125E2&lᴏ&#7D22E2&lᴍ&#791FE1&lᴘ&#751CE1&lᴇ&#7019E1&lɴ&#6C17E1&lѕ&#6814E1&lᴀ&#6411E1&lѕ &#5B0BE1&lᴋ&#5708E0&lᴀ&#5306E0&lʀ&#4E03E0&lᴍ&#4A00E0&lᴀ&r &#4A00E0🔥"
+    lore:
+      - " "
+      - "&#FFEE00ɴᴇᴄᴇѕɪᴛᴀѕ ᴇʟ ʀᴀɴɢᴏ &#DDDDDD» &#5B0BE1&lᴋ&#5708E0&lᴀ&#5306E0&lʀ&#4E03E0&lᴍ&#4A00E0&lᴀ"
+
+recompensa dhyaxer:
+  slot: 5
+  cooldown: 86400
+  # you can set the permission to any value, it does not have to start with axrewards
+  permission: "axrewards.permissiondhyaxer"
+  claim-commands:
+    - "xp give %player% 4000"
+    - "eco give %player% 150000"
+    - "crates key give %player% onyx 2"
+    - "crates key give %player% zenith 3"
+    - "crates key give %player% sa 1"
+    - "crates key give %player% d 1"
+    - "crates key give %player% rust 3"
+    - "ae givercbook SIMPLE %player% 3"
+    - "ae givercbook UNIQUE %player% 2"
+    - "ae givercbook ELITE %player% 1"
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#2193B0🔥 &#2193B0&lʀ&#2597B3&lᴇ&#299AB7&lᴄ&#2E9EBA&lᴏ&#32A2BE&lᴍ&#36A5C1&lᴘ&#3AA9C4&lᴇ&#3FADC8&lɴ&#43B0CB&lѕ&#47B4CF&lᴀ&#4BB8D2&lѕ &#54BFD9&lᴅ&#58C3DC&lʜ&#5CC6DF&lʏ&#60CAE3&lᴀ&#65CEE6&lx&#69D1EA&lᴇ&#6DD5ED&lʀ&r &#6DD5ED🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄʟɪᴄᴋ &#DDDDDD» &#FFEEAAᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ"
+  unclaimable:
+    material: "MINECART"
+    name: "&#2193B0🔥 &#2193B0&lʀ&#2597B3&lᴇ&#299AB7&lᴄ&#2E9EBA&lᴏ&#32A2BE&lᴍ&#36A5C1&lᴘ&#3AA9C4&lᴇ&#3FADC8&lɴ&#43B0CB&lѕ&#47B4CF&lᴀ&#4BB8D2&lѕ &#54BFD9&lᴅ&#58C3DC&lʜ&#5CC6DF&lʏ&#60CAE3&lᴀ&#65CEE6&lx&#69D1EA&lᴇ&#6DD5ED&lʀ&r &#6DD5ED🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄᴏᴏʟᴅᴏᴡɴ &#DDDDDD» &#FFEEAA%time%"
+  no-permission:
+    material: "BARRIER"
+    name: "&#2193B0🔥 &#2193B0&lʀ&#2597B3&lᴇ&#299AB7&lᴄ&#2E9EBA&lᴏ&#32A2BE&lᴍ&#36A5C1&lᴘ&#3AA9C4&lᴇ&#3FADC8&lɴ&#43B0CB&lѕ&#47B4CF&lᴀ&#4BB8D2&lѕ &#54BFD9&lᴅ&#58C3DC&lʜ&#5CC6DF&lʏ&#60CAE3&lᴀ&#65CEE6&lx&#69D1EA&lᴇ&#6DD5ED&lʀ&r &#6DD5ED🔥"
+    lore:
+      - " "
+      - "&#FFEE00ɴᴇᴄᴇѕɪᴛᴀѕ ᴇʟ ʀᴀɴɢᴏ &#DDDDDD» &#54BFD9&lᴅ&#58C3DC&lʜ&#5CC6DF&lʏ&#60CAE3&lᴀ&#65CEE6&lx&#69D1EA&lᴇ&#6DD5ED&lʀ"
+
+recompensa moksha:
+  slot: 6
+  cooldown: 86400
+  # you can set the permission to any value, it does not have to start with axrewards
+  permission: "axrewards.permissionmoksha"
+  claim-commands:
+    - "xp give %player% 5000"
+    - "eco give %player% 200000"
+    - "crates key give %player% onyx 5"
+    - "crates key give %player% zenith 5"
+    - "crates key give %player% sa 2"
+    - "crates key give %player% d 2"
+    - "crates key give %player% kpth 1"
+    - "ae givercbook SIMPLE %player% 5"
+    - "ae givercbook UNIQUE %player% 4"
+    - "ae givercbook ELITE %player% 3"
+    - "ae givercbook ULTIMATE %player% 2"
+      
+  claimable:
+    material: "CHEST_MINECART"
+    name: "&#EE9CA7🔥 &#EE9CA7&lʀ&#EFA2AC&lᴇ&#F0A8B1&lᴄ&#F1ADB7&lᴏ&#F2B3BC&lᴍ&#F3B9C1&lᴘ&#F4BFC6&lᴇ&#F5C5CB&lɴ&#F6CBD0&lѕ&#F7D0D6&lᴀ&#F8D6DB&lѕ &#FAE2E5&lᴍ&#FBE8EA&lᴏ&#FCEEEF&lᴋ&#FDF3F5&lꜱ&#FEF9FA&lʜ&#FFFFFF&lᴀ&r &#FFFFFF🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄʟɪᴄᴋ &#DDDDDD» &#FFEEAAᴘᴀʀᴀ ʀᴇᴄʟᴀᴍᴀʀ"
+  unclaimable:
+    material: "MINECART"
+    name: "&#EE9CA7🔥 &#EE9CA7&lʀ&#EFA2AC&lᴇ&#F0A8B1&lᴄ&#F1ADB7&lᴏ&#F2B3BC&lᴍ&#F3B9C1&lᴘ&#F4BFC6&lᴇ&#F5C5CB&lɴ&#F6CBD0&lѕ&#F7D0D6&lᴀ&#F8D6DB&lѕ &#FAE2E5&lᴍ&#FBE8EA&lᴏ&#FCEEEF&lᴋ&#FDF3F5&lꜱ&#FEF9FA&lʜ&#FFFFFF&lᴀ&r &#FFFFFF🔥"
+    lore:
+      - " "
+      - "&#FFEE00■ ᴄᴏᴏʟᴅᴏᴡɴ &#DDDDDD» &#FFEEAA%time%"
+  no-permission:
+    material: "BARRIER"
+    name: "&#EE9CA7🔥 &#EE9CA7&lʀ&#EFA2AC&lᴇ&#F0A8B1&lᴄ&#F1ADB7&lᴏ&#F2B3BC&lᴍ&#F3B9C1&lᴘ&#F4BFC6&lᴇ&#F5C5CB&lɴ&#F6CBD0&lѕ&#F7D0D6&lᴀ&#F8D6DB&lѕ &#FAE2E5&lᴍ&#FBE8EA&lᴏ&#FCEEEF&lᴋ&#FDF3F5&lꜱ&#FEF9FA&lʜ&#FFFFFF&lᴀ&r &#FFFFFF🔥"
+    lore:
+      - " "
+      - "&#FFEE00ɴᴇᴄᴇѕɪᴛᴀѕ ᴇʟ ʀᴀɴɢᴏ &#DDDDDD» &#FAE2E5&lᴍ&#FBE8EA&lᴏ&#FCEEEF&lᴋ&#FDF3F5&lꜱ&#FEF9FA&lʜ&#FFFFFF&lᴀ"
+
+vidrio1:
+  slot: 9
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio2:
+  slot: 1
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio3:
+  slot: 11
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio4:
+  slot: 12
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio5:
+  slot: 13
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio6:
+  slot: 14
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio7:
+  slot: 15 
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio8:
+  slot: 17
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio9:
+  slot: 7
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " " 
+
+vidrio10:
+  slot: 18
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " " 
+
+vidrio11:
+  slot: 19 
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " " 
+
+vidrio12:
+  slot: 25
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio13:
+  slot: 0
+  material: "GREEN_STAINED_GLASS_PANE"  
+  name: " "
+
+vidrio14:
+  slot: 8
+  material: "GREEN_STAINED_GLASS_PANE"  
+  name: " "
+
+vidrio15:
+  slot: 10
+  material: "GREEN_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio16:
+  slot: 16
+  material: "GREEN_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio17:
+  slot: 24
+  material: "GREEN_STAINED_GLASS_PANE"
+  name: " "
+
+vidrio18:
+  slot: 20
+  material: "GREEN_STAINED_GLASS_PANE"
+  name: " "  

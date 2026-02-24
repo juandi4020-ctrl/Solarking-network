@@ -1,0 +1,67 @@
+# The ID of the item is the name of the .yml file,
+# for example hardened_netherite_sword.yml has the ID of hardened_netherite_sword
+# You can place items anywhere in this folder,
+# including in subfolders if you want to organize your item configs
+# _example.yml is not loaded.
+
+item:
+  item: orange_candle hide_attributes # The item in-game: https://plugins.auxilor.io/all-plugins/the-item-lookup-system
+  display-name: "&7ᴀᴍᴜʟᴇᴛᴏ ▸ &cꜰᴜᴇʀᴢᴀ" # The display name of the item
+  lore: # The item lore
+    - "&c| &fᴇꜰᴇᴄᴛᴏ:"
+    - "&c▸ ꜰᴜᴇʀᴢᴀ ɪɪɪ: &8[30 segundos]"
+    - ""
+    - "&c| &fᴄᴏᴏʟᴅᴏᴡɴ: &a1 ᴍɪɴᴜᴛᴏ ⌚"
+  craftable: false # If the item can be crafted
+  recipe: # The recipe, read here for more: https://plugins.auxilor.io/all-plugins/the-item-lookup-system#crafting-recipes
+    - ""
+    - ecoitems:mithril 2
+    - ""
+    - ""
+    - ecoitems:mithril 2
+    - ""
+    - ""
+    - stick
+    - ""
+  recipe-give-amount: 1 # Optional, set the amount of items to give in the recipe
+
+# The slot the item has to be in to activate its effects.
+# The options for slot are mainhand, offhand, hands, helmet, chestplate,
+# leggings, boots, armor, any, a number from 0-40 (to specify an exact slot),
+# or a list of slots like "9, 10, 11, mainhand"
+# Use to choose weather this is a weapon, tool, armor piece, charm, etc.
+# If you don't specify this, it will default to mainhand.
+slot: mainhand
+
+base-damage: 1 # (Optional) The item base damage
+base-attack-speed: 1.5 # (Optional) The item base attack speed
+
+# (Optional) The rarity of the item
+rarity: rare
+
+# The effects of the item (i.e. the functionality)
+# See here: https://plugins.auxilor.io/effects/configuring-an-effect
+effects:
+  - id: potion_effect
+    args:
+      effect: strength
+      level: 3
+      duration: 600
+      apply_to_player: true
+      cooldown: 60
+    triggers:
+      - alt_click
+  
+
+
+# The conditions required for the effects to activate
+conditions:
+  - id: has_permission
+    args:
+      permission: ecoitems.use.amuleto_fuerza
+  - id: has_ecoitem
+    args:
+      item: amuleto_fuerza
+
+
+  

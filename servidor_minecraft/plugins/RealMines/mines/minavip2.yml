@@ -1,0 +1,68 @@
+name: minavip2
+type: BLOCKS
+world: minas1
+icon: DIAMOND_ORE
+displayName: minavip2
+color: BLUE
+pos1: -206;86;70
+pos2: -226;67;50
+reset:
+  silent: false
+  commands: []
+  percentage:
+    active: true
+    value: 20
+  time:
+    active: false
+    value: 300
+settings:
+  break-permission: false
+  discard-break-action-messages: false
+  block-sets-mode: INCREMENTAL
+signs: []
+block-sets:
+  default:
+    description: 'Description for block set: default'
+    icon: CAULDRON
+    blocks:
+      STONE:
+        percentage: 1.0
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      GOLD_BLOCK:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      IRON_ORE:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      DIAMOND_BLOCK:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      DIAMOND_ORE:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      EMERALD_ORE:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      GOLD_ORE:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      NETHERITE_BLOCK:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      EMERALD_BLOCK:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      IRON_BLOCK:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: -211;88;73;172.04968;34.500008

@@ -1,0 +1,101 @@
+panels:
+  warps:
+    perm: default
+    rows: 5
+    title: '&8Generated panel-2'
+    commands:
+    - 'warps'
+  
+    item:
+      '0':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '1':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '7':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '8':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '9':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '11':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '12':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '13':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '14':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '15':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '17':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '20':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '21':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '22':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '23':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '24':
+        material: IRON_INGOT
+        stack: 1
+        name: ''
+      '27':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '35':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '36':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '37':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '40':
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '43':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '44':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''

@@ -1,0 +1,160 @@
+panels:
+  menu:
+    perm: default
+    rows: 3
+    title: '<gradient:#1f0066:#004b7a>ᴍᴇɴᴜ ᴘʀɪɴᴄɪᴘᴀʟ</gradient>'
+    commands:
+    - 'menu'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '0':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '1':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '2':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '3':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '4':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '5':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '6':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '7':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '8':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '9':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '10':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '11':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: '&b☄ &7ᴄᴏᴍᴀɴᴅᴏѕ | &bᴛʀᴀʙᴀᴊᴏѕ'
+        lore:
+          - '&b◈ &f/jobs'
+          - '&b◈ &f/jobs join '
+          - '&b◈ &f/jobs leave'
+          - '&b◈ &f/jobs leave all'
+          - '&b◈ &f/jobs list'
+
+      '12':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: '&b☄ &7ᴄᴏᴍᴀɴᴅᴏѕ | &bᴄʟᴀɴ'
+        lore:
+          - '&b◈ &f/clan'
+          - '&b◈ &f/clan create <nombre>'
+          - '&b◈ &f/clan invite <jugador>'
+          - '&b◈ &f/clan accept <jugador>'
+          - '&b◈ &f/clan deny <jugador>'
+          - '&b◈ &f/clan leave'
+          - '&b◈ &f/clan kick <jugador>'
+          - '&b◈ &f/clan list'
+          - '&b◈ &f/clan info <nombre>'
+      '13':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: '&b☄ &7ᴄᴏᴍᴀɴᴅᴏѕ | &bɢᴇɴᴇʀᴀʟᴇѕ'
+        lore:
+          - '&b◈ &f/kit'
+          - '&b◈ &f/ce'
+          - '&b◈ &f/warp'
+          - '&b◈ &f/shop'
+          - '&b◈ &f/pv <numero>'
+          - '&b◈ &f/sethome <nombre>'
+          - '&b◈ &f/home <nombre>'
+          - '&b◈ &f/recompensas'
+          - '&b◈ &f/spawn'
+      '14':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: '&b☄ &7ᴄᴏᴍᴀɴᴅᴏѕ | &bᴘʀᴏᴛᴇᴄᴄɪᴏɴᴇѕ'
+        lore:
+          - '&b◈ &f/ps home <nombre>'
+          - '&b◈ &f/ps add <nombre>'
+          - '&b◈ &f/ps addowner <nombre>'
+          - '&b◈ &f/ps remove <nombre>'
+          - '&b◈ &f/ps removeowner <nombre> <jugador>'
+          - '&b◈ &f/ps flag'
+          - '&b◈ &f/ps view'
+          - '&b◈ &f/ps hide'
+          - '&b◈ &f/ps unclaim'
+      '15':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: '&b☄ &7ᴄᴏᴍᴀɴᴅᴏѕ | &bѕᴜʙᴀѕᴛᴀѕ'
+        lore:
+          - '&b◈ &f/ah'
+          - '&b◈ &f/ah sell <precio>'
+          - '&b◈ &f/ah buy <precio>'
+          - '&b◈ &f/ah cancel'
+          - '&b◈ &f/ah sellinventory <precio>'
+      '16':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '17':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '18':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '19':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '20':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '21':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '22':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '23':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '24':
+        material: LIME_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '25':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '26':
+        material: BROWN_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '

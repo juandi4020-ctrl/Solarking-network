@@ -1,0 +1,19 @@
+[2026/02/17 23:03:52 INFO]:           __             _       
+[2026/02/17 23:03:52 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/02/17 23:03:52 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/02/17 23:03:52 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/02/17 23:03:52 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/02/17 23:03:52 INFO]:                   |___/            
+[2026/02/17 23:03:52 INFO]:  By: www.nickuc.com - V 2.0.11
+[2026/02/17 23:03:52 INFO]:  
+[2026/02/17 23:03:52 DEBUG]: Loading the messages_es.yml message file...
+[2026/02/17 23:03:52 DEBUG]: Messages were loaded in 151 ms (single file).
+[2026/02/17 23:03:52 DEBUG]: Settings were loaded in 296 ms.
+[2026/02/17 23:03:53 DEBUG]: Loading database...
+[2026/02/17 23:03:53 DEBUG]: Starting logger filter...
+[2026/02/17 23:08:36 INFO]: The user apolofs has successfully logged in.
+[2026/02/17 23:08:49 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-02-17 23:08:49.276, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/02/17 23:53:31 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-02-17 23:53:31.681, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/02/17 23:55:31 INFO]: The user apolofs has successfully logged in.
+[2026/02/17 23:56:07 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-02-17 23:56:07.668, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/02/18 00:15:16 INFO]: Successful plugin core shutdown (took 0.96s)

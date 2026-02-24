@@ -1,0 +1,88 @@
+[2026/01/30 08:05:21 INFO]:           __             _       
+[2026/01/30 08:05:21 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/01/30 08:05:21 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/01/30 08:05:21 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/01/30 08:05:21 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/01/30 08:05:21 INFO]:                   |___/            
+[2026/01/30 08:05:21 INFO]:  By: www.nickuc.com - V 2.0.11
+[2026/01/30 08:05:21 INFO]:  
+[2026/01/30 08:05:21 DEBUG]: Loading the messages_es.yml message file...
+[2026/01/30 08:05:21 DEBUG]: Messages were loaded in 94 ms (single file).
+[2026/01/30 08:05:21 DEBUG]: Settings were loaded in 213 ms.
+[2026/01/30 08:05:21 DEBUG]: Loading database...
+[2026/01/30 08:05:21 DEBUG]: Starting logger filter...
+[2026/01/30 08:17:49 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-01-30 08:17:49.757, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/01/30 08:17:49 INFO]: The user apolofs has successfully logged in.
+[2026/01/30 08:29:50 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-01-30 08:29:50.009, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/01/30 08:33:16 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-01-30 08:33:16.921, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/01/30 08:33:16 INFO]: The user apolofs has successfully logged in.
+java.lang.ClassCastException: class java.lang.Long cannot be cast to class java.lang.Integer (java.lang.Long and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:530)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:451)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:410)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:250)
+	at com.nickuc.login.ΔΣλυΓΨΓβθςξη.a(:41)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:216)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2026/01/30 08:45:17 ERROR]: Unexpected exception during login process for apolofs (probably this is a bug!)
+java.lang.ClassCastException: class java.lang.Long cannot be cast to class java.lang.Integer (java.lang.Long and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:530)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:451)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:410)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:250)
+	at com.nickuc.login.ΔΣλυΓΨΓβθςξη.a(:41)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:216)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2026/01/30 08:45:22 ERROR]: Unexpected exception during login process for apolofs (probably this is a bug!)
+java.lang.ClassCastException: class java.lang.Long cannot be cast to class java.lang.Integer (java.lang.Long and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:530)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:451)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:410)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:250)
+	at com.nickuc.login.ΔΣλυΓΨΓβθςξη.a(:41)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:216)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2026/01/30 08:46:02 ERROR]: Unexpected exception during login process for apolofs (probably this is a bug!)
+java.lang.ClassCastException: class java.lang.Long cannot be cast to class java.lang.Integer (java.lang.Long and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:530)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:451)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:410)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:250)
+	at com.nickuc.login.ΔΣλυΓΨΓβθςξη.a(:41)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:216)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2026/01/30 08:46:30 ERROR]: Unexpected exception during login process for apolofs (probably this is a bug!)
+java.lang.ClassCastException: class java.lang.Long cannot be cast to class java.lang.Integer (java.lang.Long and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:530)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:451)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:410)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:250)
+	at com.nickuc.login.ΔΣλυΓΨΓβθςξη.a(:41)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:216)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2026/01/30 08:47:09 ERROR]: Unexpected exception during login process for apolofs (probably this is a bug!)
+java.lang.ClassCastException: class java.lang.Long cannot be cast to class java.lang.Integer (java.lang.Long and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:530)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:451)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:410)
+	at com.nickuc.login.ζολχΓοφσοκομπ.a(:250)
+	at com.nickuc.login.ΔΣλυΓΨΓβθςξη.a(:41)
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:216)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2026/01/30 08:47:46 ERROR]: Unexpected exception during login process for apolofs (probably this is a bug!)
+[2026/01/30 08:55:09 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-01-30 08:55:09.83, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/01/30 08:55:41 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-01-30 08:55:41.103, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/01/30 08:55:41 INFO]: The user apolofs has successfully logged in.
+[2026/01/30 08:59:29 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'apolofs', `unique_id` = 9e9c9df857aa3ef38bb9b85629a1c59c,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$IRC0UYwRkLJpHHESy1X7Tw$42x2n+I+ulaDyuY/rb9qCxdHsmq5piXkkKcJtwXLlSw', `last_ip` = '192.168.194.149', `creation_date` = 2026-01-29 00:12:31.714, `last_seen` = 2026-01-30 08:59:29.606, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
